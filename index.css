@@ -40,6 +40,7 @@ nav a{
     color: white;
     transition: 0.5s;
     font-weight: bolder;
+    font-size: 1rem;
 
 }
 nav a:hover{
@@ -314,25 +315,23 @@ nav .btn:hover{
     color: white;
 }
 .S6 h1{
-    font-size: clamp(2rem,4vw,4rem);
+    font-size: clamp(2rem,4vw,3rem);
 }
 .form-txt{
     width: 100%;
-    margin: 0 2.5vw;
-    padding: 1vh;
+    margin: 0 6vw;
 }
 .form-txt p{
-    font-size: clamp(1rem,2vw,2rem);
+    font-size: clamp(0.9rem,2vw,1rem);
     margin: 2vh 0 4vh 0;
 }
 .S6 img{
-    width: 60%;
+    width: 45%;
     height: auto;
 }
 .S6 sub{
     font-weight: bolder;
     color: white;
-    font-size: clamp(0.7rem,2vw,1rem);
 }
 .S6 sub a{
     text-decoration: none;
