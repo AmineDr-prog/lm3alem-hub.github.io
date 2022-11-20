@@ -4,7 +4,7 @@
 }
 html{
     scroll-behavior: smooth;
-    scroll-padding-top: 8vh;
+    scroll-padding-top: 5vh;
 }
 body{
     width: 100%;
@@ -314,7 +314,7 @@ nav .btn:hover{
     color: white;
 }
 .S6 h1{
-    font-size: clamp(2rem,3vw,3rem);
+    font-size: clamp(2rem,4vw,4rem);
 }
 .form-txt{
     width: 100%;
@@ -322,22 +322,29 @@ nav .btn:hover{
     padding: 1vh;
 }
 .form-txt p{
-    margin: 2vh 0 5vh 0;
+    font-size: clamp(1rem,2vw,2rem);
+    margin: 2vh 0 4vh 0;
 }
 .S6 img{
-    width: 45%;
+    width: 60%;
     height: auto;
 }
-.S6 a{
-    background:white;
-    color:#E55934;
-    text-decoration: none;
-    padding: 10px 30px;
-    transition: 0.5s;
-}
-.S6 a:hover{
+.S6 sub{
+    font-weight: bolder;
     color: white;
-    background:#ac4529 ;
+    font-size: clamp(0.7rem,2vw,1rem);
+}
+.S6 sub a{
+    text-decoration: none;
+    color: #F4A430;
+    margin: 0 1vw ;
+    transition: 0.5s;
+    user-select: none;
+}
+.S6 sub a:hover{
+    text-decoration: underline;
+    color: #f8d300;
+
 }
 @media screen and (max-width:958px){
     .S6{
